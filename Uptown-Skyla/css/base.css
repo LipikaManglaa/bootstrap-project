@@ -1,0 +1,213 @@
+@import 'variables.css';
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&family=Hind+Siliguri:wght@400;500;600;700&family=Raleway:wght@400;500;600;700&display=swap');
+.fs-11 {
+    font-size: 11px;
+}
+.fs-12 {
+    font-size: 12px;
+}
+.fs-13 {
+    font-size: 13px;
+}
+.fs-14 {
+    font-size: 14px;
+}
+.fs-15 {
+    font-size: 15px;
+}
+.fs-16 {
+    font-size: 16px;
+}
+.fs-17 {
+    font-size: 17px;
+}
+.fs-18 {
+    font-size: 18px;
+}
+.fs-19 {
+    font-size: 19px;
+}
+.fs-20 {
+    font-size: 20px;
+}
+.fs-23 {
+    font-size: 23px;
+}
+.fs-24 {
+    font-size: 24px;
+}
+.fw-400 {
+    font-weight: 400;
+}
+.fw-500 {
+    font-weight: 500;
+}
+.fw-600 {
+    font-weight: 600;
+}
+.fw-700 {
+    font-weight: 700;
+}
+.label-default {
+    color: var(--default-color) !important;
+}
+.label-color-1 {
+    color: var(--label-color-1);
+}
+.label-color-2 {
+    color: var(--label-color-2) !important;
+}
+.label-color-3 {
+    color: var(--label-color-3);
+}
+.label-color-4 {
+    color: var(--black) !important;
+}
+.seperator {
+    border-bottom: 1px solid var(--border-color1);
+}
+.bg-color-3 {
+    background-color: var(--bg-color-3);
+}
+.bg-default {
+    background-color: var(--default-color);
+}
+.bg-color-1 {
+    background-color: var(--bg-color-1);
+}
+.bg-color-2 {
+    background-color: var(--bg-color-2) !important;
+}
+.table-bg {
+    background-color: var(--label-color-1) !important;
+}
+.main-heading {
+    font-size: 57px;
+    color: var(--white);
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+}
+.sub-heading {
+    font-size: 40px;
+    color: var(--label-color-1);
+    font-weight: 600;
+}
+.sub-heading-medium {
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--label-color-1);
+}
+.sub-heading-small {
+    font-size: 11px;
+    color: var(--default-color);
+}
+.main-content {
+    font-size: 15px;
+    color: var(--label-color-2) !important;
+    font-weight: 400;
+    line-height: 34px;
+}
+.sub-content {
+    font-size: 15px;
+    color: var(--label-color-3) !important;
+    font-weight: 400;
+    line-height: 34px;
+}
+.btn-default {
+    padding: 13px 22px;
+    font-size: 13px;
+    background: var(--default-btn);
+    color: var(--white);
+    border-radius: 3px;
+    outline: 0px;
+    border: 1px solid transparent;
+    transition: 0.3s all ease-in-out;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.btn-default:hover {
+    background: transparent;
+    color: var(--default-btn);
+    border-color: var(--default-btn);
+}
+.btn-secondary {
+    padding: 0px 24px;
+    height: 40px;
+    outline: 0px;
+    background-color: var(--default-color);
+    border: 1px solid transparent;
+    transition: 0.3s all ease;
+}
+.btn-secondary:hover {
+    border-color: var(--white) !important;
+    background-color: transparent !important;
+}
+.btn-form {
+    padding: 0px 24px;
+    height: 40px;
+    outline: 0px;
+    color: var(--white);
+    background-color: var(--default-color);
+    border: 1px solid transparent;
+    transition: 0.3s all ease;
+}
+.btn-form:hover {
+    border-color: var(--default-color) !important;
+    background-color: transparent !important;
+    color: var(--default-color);
+}
+.default-shadow {
+    box-shadow: var(--default-shadow);
+}
+.border-top-radius {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.default-label-hover:hover {
+    color: var(--default-color) !important;
+}
+.fit-cover {
+    object-fit: cover;
+}
+.mt-70 {
+    margin-top: 70px;
+}
+.field-focus:focus {
+    border-color: var(--default-color);
+}
+
+@media (max-width: 991px) {
+    .header-section .navbar-collapse {
+        width: 50%;
+        position: fixed;
+        top: 0px;
+        left: 0;
+        z-index: 10000;
+        height: 100%;
+        overflow-y: auto;
+        background: var(--white) !important;
+    }
+    .header-section .navbar-collapse.collapsing {
+        left: -75%;
+        transition: height 0s ease;
+    }
+    .header-section .navbar-collapse.show {
+        left: 0;
+        transition: left 300ms ease-in-out;
+    }
+    .header-section .navbar-toggler.collapsed ~ .navbar-collapse {
+        transition: left 500ms ease-in-out;
+    }
+}
+@media (max-width: 575px) {
+    .header-section .navbar-collapse {
+        width: 80%;
+        position: fixed;
+        top: 0px;
+        left: 0;
+        z-index: 10000;
+        height: 100%;
+        overflow-y: auto;
+        background: var(--white) !important;
+    }
+}

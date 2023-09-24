@@ -1,0 +1,14 @@
+:root {
+    --default-color: #bda588;
+    --default-shadow: 0 7px 35px 0 rgb(0 0 0 / 7%);
+    --border-color1: rgba(255,255,255,0.2);
+    --bg-color-1: #f7f2ec;
+    --bg-color-2: #f5f5f5;
+    --white: #FFFFFF;
+    --black: #000000;
+    --default-btn: #0077B9;
+    --label-color-1: #173e62; 
+    --label-color-2: #66717A;
+    --label-color-3: #b0b9c1;
+    --bg-color-3: #262F39;
+}
